@@ -35,7 +35,7 @@ function GoogleApi() {
       const date = startDate.toISOString().slice(0, 10);
       const time = startDate.toTimeString().slice(0, 5); 
       const { isLoaded } = useJsApiLoader({
-        googleMapsApiKey: 'AIzaSyD3tSsYWr6uU9-G_Snx46V2pMGDUnvlAaE',
+        googleMapsApiKey: 'YOUR API KEY',
         libraries: ['places'],
       })
       if (!isLoaded) {
